@@ -1,0 +1,22 @@
+[package]
+name = "promqueen"
+version = "0.1.0"
+authors = ["freemountain <dominik.freiberger@stylelounge.de>"]
+
+[dependencies]
+promql = { git = "https://github.com/freemountain/promql" }
+serde = "1.*"
+serde_json = "1.*"
+serde_derive = "1.*"
+restson = "0.4.0"
+clap = "^2"
+quick-error = "1.2.2"
+env_logger = "0.6.0"
+tokio-core = "0.1.17"
+hyper = "0.12.14"
+hyper-tls = "0.3.1"
+futures = "0.1.25"
+url = "1.7.2"
+scraper = "0.8.1"
+serde_yaml = "0.8"
+nom = "4.*"
